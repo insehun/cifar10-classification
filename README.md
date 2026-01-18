@@ -21,3 +21,7 @@ and model architecture changes.
 3. Evaluate performance and identify issues
 4. Improve the model (augmentation / ResNet)
 5. Analyze results and document findings
+
+## Data Exploration
+The CIFAR-10 dataset was loaded and sample images were visualized to understand
+image resolution and class distribution before building the baseline model.
