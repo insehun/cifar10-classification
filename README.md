@@ -25,3 +25,7 @@ and model architecture changes.
 ## Data Exploration
 The CIFAR-10 dataset was loaded and sample images were visualized to understand
 image resolution and class distribution before building the baseline model.
+
+## Baseline Model
+A simple CNN with two convolutional layers was implemented as a baseline model.
+This model serves as a reference point for evaluating future improvements.
