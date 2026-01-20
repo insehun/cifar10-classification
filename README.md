@@ -22,10 +22,24 @@ and model architecture changes.
 4. Improve the model (augmentation / ResNet)
 5. Analyze results and document findings
 
-## Data Exploration
+## 5. Data Exploration
 The CIFAR-10 dataset was loaded and sample images were visualized to understand
 image resolution and class distribution before building the baseline model.
 
-## Baseline Model
+## 6. Baseline Model
 A simple CNN with two convolutional layers was implemented as a baseline model.
 This model serves as a reference point for evaluating future improvements.
+
+## 7. Baseline Evaluation (Step 4)
+Baseline CNN was trained for 5 epochs.
+
+- Final Train Accuracy: 71.58%
+- Final Test Accuracy:  68.09%
+
+### Observations
+- Test accuracy increased across the first few epochs (56.60% → 68.26%), and then slightly dropped at the last epoch (68.09%).
+- The final train–test gap was small (about 3.49%p), suggesting limited overfitting and a reasonably stable baseline.
+
+### Next Improvement Hypotheses
+1) Data augmentation may further improve generalization by increasing effective training diversity.
+2) A stronger architecture (e.g., ResNet) may capture more robust features on CIFAR-10.
