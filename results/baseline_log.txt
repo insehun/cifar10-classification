@@ -1,0 +1,10 @@
+Epoch 1 | Train Accuracy: 46.37%
+Test Accuracy: 56.60%
+Epoch 2 | Train Accuracy: 60.21%
+Test Accuracy: 62.59%
+Epoch 3 | Train Accuracy: 65.51%
+Test Accuracy: 66.86%
+Epoch 4 | Train Accuracy: 68.87%
+Test Accuracy: 68.26%
+Epoch 5 | Train Accuracy: 71.58%
+Test Accuracy: 68.09%
